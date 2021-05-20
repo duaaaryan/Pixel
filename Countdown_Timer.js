@@ -57,7 +57,7 @@ function initializeClock(id, endtime) {
 }
 
 const schedule = [
-  ['Jul 25 2015', 'Aug 2 2021']
+  ['Jul 25 2015', 'Aug 20 2021']
 ];
 
 for (var i=0; i<schedule.length; i++) {
