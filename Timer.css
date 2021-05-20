@@ -1,0 +1,100 @@
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 812px) {
+	body{
+		text-align: center;
+		background-image: url('https://wallpaperaccess.com/full/1703370.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: 100%;
+	
+	  font-family: "Lucida Grande", "Lucida Sans Unicode";
+	  font-weight: 100;
+	}
+	h1{
+		color: #212120;
+		font-weight: 100;
+		font-size: 40px;
+		margin: 40px 0px 20px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode";
+		color: white;
+	  }
+	  
+	  #clockdiv{
+		  font-family: "Lucida Grande", "Lucida Sans Unicode";
+		  color: #212120;
+		  display: inline-block;
+		  font-weight: 100;
+		  text-align: center;
+		  font-size: 30px;
+	  }
+	  
+	  #clockdiv > div{
+		  padding: 10px;
+		  border-radius: 3px;
+			  background-image: linear-gradient(to bottom right, #cc9f46, #daac52, #e9b95e, #f7c66b, #ffd378, #ffe184, #ffef91);;
+		  display: inline-block;
+	  }
+	  
+	  #clockdiv div > span{
+		  padding: 15px;
+		  border-radius: 3px;
+		  background-image: linear-gradient(to bottom right, #d69733, #daac52, #e9b95e, #f7c66b, #ffd378, #ffe184, #ffef91);
+		  display: inline-block;
+	  }
+	  
+	  .smalltext{
+		  padding-top: 5px;
+		  font-size: 16px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode";
+		color: #212120;
+	  }
+  }
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 812px){
+	body{
+		text-align: center;
+		background-image: url('https://wallpaperaccess.com/full/1703370.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: linear;
+	  background-size: 100%;
+	  display: center;
+	
+	  font-family: "Lucida Grande", "Lucida Sans Unicode";
+	  font-weight: 100;
+	}
+	h1{
+		color: #212120;
+		font-weight: 100;
+		font-size: 20px;
+		margin: 20px 0px 10px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode";
+		color: white;
+	  }
+	  #clockdiv{
+		font-family: "Lucida Grande", "Lucida Sans Unicode";
+		color: #212120;
+		display: inline-block;
+		font-weight: 100;
+		text-align: center;
+		font-size: 11px;
+	}
+	#clockdiv > div{
+		padding: 5px;
+		border-radius: 3px;
+			background-image: linear-gradient(to bottom right, #cc9f46, #daac52, #e9b95e, #f7c66b, #ffd378, #ffe184, #ffef91);;
+		display: inline-block;
+	}
+	#clockdiv div > span{
+		padding: 7px;
+		border-radius: 3px;
+		background-image: linear-gradient(to bottom right, #d69733, #daac52, #e9b95e, #f7c66b, #ffd378, #ffe184, #ffef91);
+		display: inline-block;
+	}
+	.smalltext{
+		padding-top: 3px;
+		font-size: 11px;
+	  font-family: "Lucida Grande", "Lucida Sans Unicode";
+	  color: #212120;
+	}
+  }
+
